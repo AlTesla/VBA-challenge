@@ -10,7 +10,7 @@ the time in which the code is executed to less than a minute.
 ### First version Code of  `Year_Change` function 
 The function returns a value and write another value and makes iterations over all rows in the worksheet
 
-```Visual Basic
+```vba
     Function Year_Change(Row, ws) As Double
     Dim First_Date As Long
     Dim Last_Date As Long
@@ -42,18 +42,18 @@ The function returns a value and write another value and makes iterations over a
           last_Stock_Row = Stock_Index
           End If
         End If
-        
+  ```      
       Stock_Index = Stock_Index + 1
     Wend
     Year_Change = ws.Cells(last_Stock_Row, 6).Value - ws.Cells(First_Stock_Row, 3).Value
     ws.Cells(Row, 11).Value = Year_Change / ws.Cells(First_Stock_Row, 3)
     End Function
-```
+
 ### Final Version code of `Year_Change` function
 This version return an Array with three values `Yearly change`, `Percent Change` and `Total Stock volume`. Also this Function uses a mathematic proportion to find the values that it's looking for and doesn't use any `If`. So with 
 these features I was able to reduce Running time  
 
-```Visual Basic
+```vba
     Function Year_Change(Row, ws, ws_index) As Variant
     Dim Year_Array(1 To 3) As Double
     Dim last_Stock_Row As Long
