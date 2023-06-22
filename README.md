@@ -79,4 +79,10 @@ these features I was able to reduce Running time
     
     End Function
 
-I was finally able to run everything without any problems and getting all the data I was looking for, for the assignment.
+Finally, I was able to run everything without any problems and getting all the data I was looking for, for the assignment.
+
+
+![First WorkSheet header](https://github.com/AlTesla/VBA-challenge/blob/main/Header.png?raw=true)
+
+
+Thanks for reading
