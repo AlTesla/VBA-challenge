@@ -1,10 +1,10 @@
 # VBA-challenge
 this repository contains the VBA challenge, Data Analytics Bootcamp assignment
 ## scripting steps
-First I begin modifying the script for `credit_charges.xlsx` to works with the `alphabetical_testing.xlsx`, I was able to make the script run on all the sheets but it took 5 minutes to run,
+First I began modifying the script for `credit_charges.xlsx` to works with the `alphabetical_testing.xlsx`, I was able to make the script run on all the sheets but it took 5 minutes to run,
 then I was debugging the functions and trying to reduce interations and I got the time down to less that a minute so i thought it would work
 with the `Multiple_year_stock_daba.xlsx` and I tried it, but it didn't work at all, i kept debugging and thinking algorithms to reduce iterations,
-I found mathematical proportions that helped me find values with a menu and uni functions to give me a list of values, so I managed to reduce 
+I found mathematical proportions that helped me find values with less iterations and merge functions to give me a list of values, so I was able to reduce 
 the time in which the code is executed to less than a minute.
 
 ### First version Code of  `Year_Change` function 
@@ -85,4 +85,4 @@ Finally, I was able to run everything without any problems and getting all the d
 ![First WorkSheet header](https://github.com/AlTesla/VBA-challenge/blob/main/Header.png?raw=true)
 
 
-Thanks for reading
+Thanks for reading!
